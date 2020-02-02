@@ -1,0 +1,30 @@
+<!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->
+<h2><span style="text-decoration: underline;">Literals</span></h2>
+<h3><span style="color: #0000ff;">Any constant value which can be assigned to the variable in called literal.</span></h3>
+<div class="pc11 imgMax-590">
+<ul>
+<li>
+<p><span style="color: #339966;"><strong>String literals</strong></span>: A string literal is enclosed in single quotes:</p>
+<pre>'Duke'</pre>
+<p>If a string literal contains a single quote, you indicate the quote by using two single quotes:</p>
+<pre>'Duke''s'</pre>
+<p>Like a Java&nbsp;<kbd>String</kbd>, a string literal in the query language uses the Unicode character encoding.</p>
+</li>
+<li>
+<p><span style="color: #339966;"><strong>Numeric literals</strong></span>: There are two types of numeric literals: exact and approximate.</p>
+<p>An exact numeric literal is a numeric value without a decimal point, such as 65, &ndash;233, and +12. Using the Java integer syntax, exact numeric literals support numbers in the range of a Java&nbsp;<tt>long</tt>.</p>
+<p>An approximate numeric literal is a numeric value in scientific notation, such as 57., &ndash;85.7, and +2.1. Using the syntax of the Java floating-point literal, approximate numeric literals support numbers in the range of a Java&nbsp;<tt>double</tt>.</p>
+</li>
+<li>
+<p><span style="color: #339966;"><strong>Boolean literals</strong></span>: A Boolean literal is either&nbsp;<tt>TRUE</tt>&nbsp;or&nbsp;<tt>FALSE</tt>. These keywords are not case-sensitive.</p>
+</li>
+<li>
+<p><span style="color: #339966;"><strong>Enum literals</strong></span>: The Java Persistence query language supports the use of enum literals using the Java enum literal syntax. The enum class name must be specified as a fully qualified class name:</p>
+<pre>SELECT e
+ FROM Employee e
+ WHERE e.status = com.xyz.EmployeeStatus.FULL_TIME</pre>
+</li>
+</ul>
+</div>
+<div class="d8 d8v1">&nbsp;</div>
+<p>&nbsp;</p>
